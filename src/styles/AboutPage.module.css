@@ -1,0 +1,58 @@
+
+.container {
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.aboutFeauter {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.feauterLink {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+.feauterLink a {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+}
+
+.feauterImg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.feauterImg img {
+    width: 100%;
+    border: 3px solid #F2F2F7;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px #d4d4df;
+}
+
+.feauterImg h1 {
+    font-size: 48px;
+    font-weight: 400;
+    color: #081f32;
+    text-align: center;
+}
+
+.aboutTable {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.aboutInformations {
+    width: 613px;
+}
+
+.aboutEpisodes {
+    flex-grow: 1;
+}
